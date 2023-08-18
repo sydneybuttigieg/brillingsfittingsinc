@@ -1,0 +1,204 @@
+html {
+  height: 100%;
+  width: 100%;}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+	-main-background-: #ffffff;
+	-main-fonts-color-: #000000;
+	-main-decor-color-:#FFA100;
+  -main-header-background-:#ffffff;
+	-main-font-family-: 'Roboto', sans-serif;}
+
+/*       ---------------NAV LINKS-----------           */
+nav ul {
+  list-style-type: none;
+  margin: 0;}
+
+nav li {
+  display: inline;
+  padding-right: 20px;}
+
+.logo{
+  width: 250px;
+  float: left;
+  padding-left: 50px;
+  padding-top: 20px; }
+
+nav {
+  float: right;
+  padding-right: 50px;
+  padding-top: 40px;}
+
+nav li a {
+  text-decoration: none;
+  color: #213489;
+  font-weight: bolder;
+  font-size: 19px;}
+
+nav li a:hover {
+	color: #FFA100;}
+
+/*       ---------------PRODUCT CARDS-----------           */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 275px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;}
+
+.price {
+  color: #FFA100;
+  font-size: 19px;}
+
+* {
+  box-sizing: border-box;}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10 10px;
+  margin-bottom: 50px;}
+
+.row {margin: 50 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 10px;}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;} }
+
+/*       ---------------HOME PAGE WELCOME TITTLE-----------           */
+.welcome{
+  font-size: 70px;
+  margin-right: 0%;
+  color: #ffa100;
+  margin-top: 0%;
+  padding-top: 300px;
+  padding-bottom: 250px;
+  padding-right: 20%;
+  background-image: url(gif.gif);
+}
+.mission{
+  font-size: 50px;  
+  margin-top: 0%;
+  padding-top: 100px;
+  text-align: center;}
+
+.missiondescription, .aboutdescription{
+  margin-left: 25%;
+  text-align:center;
+  font-size: 17px;
+  max-width: 50%;
+  padding-bottom: 10px;
+}
+
+.ceo{
+  padding-top: 50px;
+  padding-left: 570px;
+}
+
+
+
+/*       ---------------PRODUCT PAGE TITLE/TEXT-----------           */
+.products, .about{
+  font-size: 70px;  
+  margin-top: 0%;
+  padding-top: 150px;
+  text-align: center;}
+
+.subheading{
+  margin-left: 5%;
+  margin-bottom: 20px;
+  font-size: 22px;}
+
+.productdescription{
+  margin-left: 25%;
+  text-align:center;
+  font-size: 17px;}
+
+.must{
+  color: red;}
+
+/*            ---------------FOOTER--------------           */
+footer{
+  margin-bottom: 100px;
+  margin-top: 200px;
+  background-color: #ffa100;}
+
+.copy{
+ font-weight: bolder;
+  padding-bottom: 50px;
+  padding-top: 30px;}
+
+.contact{
+  font-size: 70px;  
+  margin-top: 5%;}
+
+/*            ---------------CONTACT PAGE--------------           */
+input[type=text], textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 10px; 
+  box-sizing: border-box; 
+  margin-top: 10px; 
+  margin-bottom: 16px; 
+  resize: vertical}
+
+input[type=submit] {
+  background-color: #ffa100;
+  color: white;  
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;}
+
+input[type=submit]:hover {
+  background-color: #ffcb70;}
+
+.container {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;}
+
+.contact {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  margin-top: 0%;}
+
+
+
+@media only screen and (max-width: 1484px) and (min-width: 1214px) {
+	.work{
+  padding:20px 20%;} }
+
+@media only screen and (max-width: 1214px) and (min-width: 1000px) {
+	.work{
+  padding:20px 12%;} }
+
+
+@media only screen and (max-width: 500px) {
+
+
+
+
